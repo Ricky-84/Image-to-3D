@@ -1,7 +1,7 @@
 # Image-to-3D: Generating 3D Models from 2D Images
 
 ## Project Description
-This project, developed as part of Andaz Kumar, Artificial Intelligence (AI) internship, converts a 2D side-profile image of a toy truck into a 3D mesh model. The script uses depth estimation to infer 3D structure, removes the background for cleaner processing, mirrors the mesh to create a double-sided model, and extrudes it to form a closed, watertight 3D volume. The final output is an `.obj` file that can be visualized in tools like Blender or MeshLab.
+This project converts a 2D side-profile image of a toy truck into a 3D mesh model. The script uses depth estimation to infer 3D structure, removes the background for cleaner processing, mirrors the mesh to create a double-sided model, and extrudes it to form a closed, watertight 3D volume. The final output is an `.obj` file that can be visualized in tools like Blender or MeshLab.
 
 ## Features
 - **Background Removal**: Uses `rembg` to isolate the toy truck from the background.
